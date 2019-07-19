@@ -8,8 +8,15 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
 	  <link href="css/site.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="dist/aos.css" />
+
 
   <title>site</title>
+  <script>
+
+</script>
   </head>
   <body id="page-top">
     <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
@@ -40,21 +47,21 @@
       </nav>
 
     <div class="album py-5 bg-light">
-        <div id="container">
+       <div id="container">
       	<h1>Top Artist</h1>
-  <div class="card mb-2">
-    <figure class="figure">
-  		<img src="https://charts-static.billboard.com/img/2011/02/ariana-grande-ypy-344x344.jpg" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure." width="400px">
- 		 <figcaption class="figure-caption text-row">Ariana Grande</figcaption>
-		</figure>
-
-
+        <div data-aos="fade-up">
+  		      <img src="https://charts-static.billboard.com/img/2011/02/ariana-grande-ypy-344x344.jpg" width="400px">
+            </div>
+             <figcaption class="figure-caption text-row">Ariana Grande</figcaption>
+		         </figure>
+        </div>
 		<figure class="figure">
 		  <img src="https://www.gannett-cdn.com/-mm-/4f1d7dddd0b8f610b852f2e326d6c32a0939637e/c=0-88-2834-1689/local/-/media/2017/08/31/USATODAY/USATODAY/636397661812009734-XXX-IMG-GTY-664312214-E-ACE-1-1-8OII0GS3.JPG?width=580&height=326&fit=crop" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure." width="400px">
 		  <figcaption class="figure-caption text-row">Halsey</figcaption>
 		</figure>
-</div>
   </div>
+
+  <div class="videos">
 		<h3>Videos</h3>
 		<iframe width="560" height="315" src="https://www.youtube.com/embed/W0KMtmi2H3g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		<p></p>
@@ -62,7 +69,9 @@
  		<p></p>
  		<iframe width="560" height="315" src="https://www.youtube.com/embed/1ekZEVeXwek" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
-
+  <div>
+  <img src="https://www.gannett-cdn.com/-mm-/4f1d7dddd0b8f610b852f2e326d6c32a0939637e/c=0-88-2834-1689/local/-/media/2017/08/31/USATODAY/USATODAY/636397661812009734-XXX-IMG-GTY-664312214-E-ACE-1-1-8OII0GS3.JPG?width=580&height=326&fit=crop" alt="talk" data-aos="fade-up" class="aos.init">
+  </div>
 
   <footer class="blog-footer">
     <div class="album py-5 bg-light">
@@ -74,5 +83,7 @@
 
     <!-- Optional JavaScript -->
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="dist/aos.js"></script>
+
   </body>
 </html>

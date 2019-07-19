@@ -1,0 +1,28 @@
+@font-face {
+    font-family: futura-pt, sans-serif;
+    src: url("https://use.typekit.net/dvl4agg.css");
+}
+body {
+  font-family: futura-pt;
+  font-weight: 300;
+  font-style: normal; */
+
+}
+
+.ghost-button {
+  align-items: center;
+  display: inline-block;
+  padding: 10px 30px;
+  margin:  320px 70px;
+  border: 0.8px solid #343a40;
+  color: #343a40;
+  text-align: center;
+  border-style: : none;
+  outline; 0;
+}
+.ghost-button:hover {
+  background-color:#343a40;
+  color:white;
+  text-decoration: none;
+  transition: 0.5s;
+}
