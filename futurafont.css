@@ -3,8 +3,7 @@
     src: url("https://use.typekit.net/dvl4agg.css");
 }
 body {
-  font-family: futura-pt;
-  font-weight: 300;
-  font-style: normal; */
 
+  font-family: futura-pt-bold, sans-serif;
+  font-weight: 700;
 }
