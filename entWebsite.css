@@ -10,7 +10,7 @@ body {
   background-size: cover;
 }
 video {
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     left: 0;
     width: 100%;
@@ -19,7 +19,6 @@ video {
     object-position: center;
 }
 header{
-  position: fixed;
   width:100%;
   height: relative;
   margin:0;
