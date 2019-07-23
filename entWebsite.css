@@ -2,11 +2,10 @@
 @font-face {
     font-family: futura-pt, sans-serif;
     src: url("https://use.typekit.net/dvl4agg.css");
-    color:#fff !important;
 }
 body {
   margin: 0;
-  background: #000;
+  background: #C7C6A7;
   background-size: cover;
 }
 video {
@@ -39,7 +38,7 @@ header{
   border-color: transparent;
 
 }
-html, body, header{
+html, body, header, main, p, h2{
 
   font-family: futura-pt-bold, sans-serif;
   font-weight: 900;

@@ -3,8 +3,8 @@
 .ghost-btn {
   align-items: center;
   display: inline-block;
-  padding: 5px 15px;
-  margin:  300px 70px;
+  padding: 5px;
+  margin: 0;
   border: 1.5px solid #343a40;
   color: #343a40;
   text-align: center;
