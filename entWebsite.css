@@ -1,0 +1,49 @@
+
+@font-face {
+    font-family: futura-pt, sans-serif;
+    src: url("https://use.typekit.net/dvl4agg.css");
+    color:#fff !important;
+}
+body {
+  margin: 0;
+  background: #000;
+  background-size: cover;
+}
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: relative;
+    object-fit: cover;
+    object-position: center;
+}
+header{
+  position: fixed;
+  width:100%;
+  height: relative;
+  margin:0;
+  padding:0;
+  text-align: center;
+}
+
+.transparentbar {
+  background-repeat:no-repeat;
+  cursor:pointer;
+  outline:none;
+  border:none;
+  box-shadow:none;
+  background-image: none;
+
+  background-color: transparent;
+  background: transparent;
+  border-color: transparent;
+
+}
+html, body, header{
+
+  font-family: futura-pt-bold, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+
+}

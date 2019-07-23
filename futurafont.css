@@ -2,8 +2,9 @@
     font-family: futura-pt, sans-serif;
     src: url("https://use.typekit.net/dvl4agg.css");
 }
-body {
+html, body{
 
   font-family: futura-pt-bold, sans-serif;
-  font-weight: 700;
+  font-weight: 800;
+  font-style: normal;
 }
