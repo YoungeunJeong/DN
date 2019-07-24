@@ -25,19 +25,6 @@ header{
   text-align: center;
 }
 
-.transparentbar {
-  background-repeat:no-repeat;
-  cursor:pointer;
-  outline:none;
-  border:none;
-  box-shadow:none;
-  background-image: none;
-
-  background-color: transparent;
-  background: transparent;
-  border-color: transparent;
-
-}
 html, body, header, main, p, h2{
 
   font-family: futura-pt-bold, sans-serif;

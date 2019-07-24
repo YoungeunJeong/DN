@@ -1,4 +1,4 @@
-<html lang="ko">
+<!DOCTYPE html>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -12,21 +12,37 @@
   <link rel="stylesheet" href="css/owl.carousel.min.css">
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
+
   <title>Ent website</title>
+  <style>html{
+    margin-top:0 !important;
+  }
+  </style>
+
+  <style>
+    /* Always set the map height explicitly to define the size of the div
+     * element that contains the map. */
+    #map {
+      height: 60%;
+    }
+    /* Optional: Makes the sample page fill the window. */
+    html, body {
+      height: 100%;
+      margin: 15;
+      padding: 30;
+    }
+  </style>
+
 </head>
 
-
 <body id="page-top">
-<style>html{
-  margin-top:0 !important;
-}
-</style>
+
 
     <header>
       <div>
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" data-aos="fade-up">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark" id="mainNav" data-aos="fade-up">
           <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top"><h3>YOUNG Ent.</h3></a>
+            <a class="navbar-brand js-scroll-trigger" href="#page-top"><h3>YOUNG RECORDS</h3></a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
               M E N U
             </button>
@@ -41,14 +57,14 @@
                 <li class="nav-item">
                   <a class="nav-link js-scroll-trigger" href="#shop"><h6>S H O P</h6></a>
                 </li>
-                 <li class="nav-item dropdown transparentbar">
+                 <li class="nav-item dropdown">
                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                        <h6>S U B S C R I B E</h6>
                      </a>
-                     <div class="dropdown-menu p-3">
-                         <form class="form-horizontal" method="post" accept-charset="UTF-8">
-                             <input class="form-control login" type="text" name="username2" placeholder="EMAIL HERE" style="margin-bottom:10px">
-                             <div align="right"><input class="ghost-button-dropdown" type="button" name="submit" value="SUBMIT" align="right"><div>
+                     <div class="dropdown-menu p-1">
+                         <form class="form-horizontal" style=padding:0; method="post" accept-charset="UTF-8">
+                             <input class="form-control login" type="text" name="username2" placeholder="EMAIL" style="margin-bottom:10px">
+                             <div align="right"><a class="text-dark">Subscribe!  </a><input class="ghost-button-dropdown" type="button" name="submit" value="SUBMIT" align="right"><div>
                          </form>
                      </div>
                  </li>
@@ -69,10 +85,10 @@
 
 <main>
   <section id="artist" class="about-section">
-    <div class="container">
+    <div class="container text-center">
       <div class="row">
         <div class="col-lg-8 mx-auto" data-aos="fade-right">
-          <h2 class="text-white mb-4">A R T I S T</h2>
+          <h2 class="text-white text-center mb-4">A R + I S T</h2>
           <p class="text-white">The world best of best</p>
         </div>
 
@@ -97,26 +113,65 @@
 </section>
 
 <section id="shop" class="about-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto" data-aos="fade-right">
+        <h2 class="text-white text-center mb-4">S H O P</h2>
+        <p class="text-white"></p>
+      </div>
   <div class="owl-carousel" >
   <div data-aos="fade-up"><img src="img/T1.png"></div>
   <div data-aos="fade-up"><img src="https://shop.mexicansummer.com/wp-content/uploads/2018/05/Arp-Zebra-Cover-Art.jpeg"></div>
   <div data-aos="fade-up"><img src="img/T2.png"></div>
   </div>
 </section>
+<section id="label" class="text-center about-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto" data-aos="fade-right">
+        <h2 class="text-white mb-4">L A B E L</h2>
+        <p class="text-white">patners</p>
+      </div>
+
+</section>
+
+
 
 
 
 </main>
+<h2 class="text-white mb-4">O U R - L O C A T I O N</h2>
 
+  <div id="map"></div>
 
-    <footer>
+<script>
+  var map;
+  function initMap() {
+    map = new google.maps.Map(document.getElementById('map'), {
+      center: {lat: -34.397, lng: 150.644},
+      zoom: 8
+    });
+  }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqdSE1rVC7nqS3nfate9SIY2RtcAgeO9Q&callback=initMap"
+async defer></script>
+    <footer class="text-center text-white-50">
+        <div class="container">
+          Copyright &copy; Youngeun Jeong 2019
+        </div>
     </footer>
 
+    <script>
+      $(document).ready(function(){
+      $('.owl-carousel').owlCarousel();
+      });
+    </script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="dist/owl.carousel.min.js"></script>
     <script src="dist/aos.js"></script>
+
     <script>
       $('.owl-carousel').owlCarousel({
         items:1,
@@ -142,10 +197,6 @@
         duration: 1000
       });
     </script>
-    <script>
-  $(document).ready(function(){
-  $('.owl-carousel').owlCarousel();
-  });
-    </script>
+
  </body>
 </html>

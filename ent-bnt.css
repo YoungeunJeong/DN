@@ -2,8 +2,7 @@
 
 .ghost-btn {
   align-items: center;
-  position: fixed;
-  /* display: inline-block; */
+  display: inline-block;
   padding: 5px;
   margin: 0;
   border: 1.5px solid #343a40;
