@@ -2,7 +2,8 @@
 
 .ghost-btn {
   align-items: center;
-  display: inline-block;
+  position: fixed;
+  /* display: inline-block; */
   padding: 5px;
   margin: 0;
   border: 1.5px solid #343a40;
@@ -10,7 +11,7 @@
   text-align: center;
   font-family:"futura-pt" !important;
   /* border-style: : none; */
-  outline; 0;
+  outline; none;
 }
 .ghost-btn:hover {
   background-color:#343a40;

@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="dist/aos.css">
   <link rel="stylesheet" href="ent-bnt.css">
   <link rel="stylesheet" href="entWebsite.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
   <title>Ent website</title>
 </head>
@@ -56,56 +58,94 @@
         </nav>
         </div>
         <div>
-        <video poster="img/location.jpg" playsinline autoplay muted loop data-aos="fade-up">
-        <source src="img/location.mp4" type="video/mp4">
-          <source src="img/talk.mp4" type="video/mp4">
-        </video>
-        <button class="ghost-btn"> wow </button>
-        <div>
+
+          <video poster="img/location.jpg" playsinline autoplay muted loop data-aos="fade-up">
+            <source src="img/location.mp4" type="video/mp4">
+            <source src="img/talk.mp4" type="video/mp4">
+          </video>
+        </div>
 
 </header>
 
 <main>
-  <section id="about" class="about-section">
+  <section id="artist" class="about-section">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2 class="text-white mb-4">Hello, World.</h2>
-          <p class="text-white">The world best of best
-            </p>
+        <div class="col-lg-8 mx-auto" data-aos="fade-right">
+          <h2 class="text-white mb-4">A R T I S T</h2>
+          <p class="text-white">The world best of best</p>
         </div>
+
+      <div class="owl-carousel">
+        <div data-aos="fade-up"><img src="img/T1.png"></div>
+        <div data-aos="fade-up"><img src="https://shop.mexicansummer.com/wp-content/uploads/2018/05/Arp-Zebra-Cover-Art.jpeg"></div>
+        <div data-aos="fade-up"><img src="img/T2.png"></div>
       </div>
     </div>
-  </section>
-
-  <!-- <img src="img/masthead.jpg"> -->
-  <div class="container">
-    <button class="ghost-btn"> wow </button>
   </div>
+<div class="container" data-aos="fade-up">
+  <button class="ghost-btn"> wow </button>
+</div>
+</section>
+
+<section id="videios" class="about-section">
+  <div class="owl-carousel owl-theme" data-aos="fade-up">
+    <div class="item-video" data-merge="3"><a class="owl-video" href="https://www.youtube.com/watch?v=hE2Ira-Cwxo"></a></div>
+    <div class="item-video" data-merge="1"><a class="owl-video" href="https://www.youtube.com/watch?v=hE2Ira-Cwxo"></a></div>
+    <div class="item-video" data-merge="2"><a class="owl-video" href="https://www.youtube.com/watch?v=hE2Ira-Cwxo"></a></div>
+  </div>
+</section>
+
+<section id="shop" class="about-section">
+  <div class="owl-carousel" >
+  <div data-aos="fade-up"><img src="img/T1.png"></div>
+  <div data-aos="fade-up"><img src="https://shop.mexicansummer.com/wp-content/uploads/2018/05/Arp-Zebra-Cover-Art.jpeg"></div>
+  <div data-aos="fade-up"><img src="img/T2.png"></div>
+  </div>
+</section>
 
 
 
-<main>
-
-
-
-
-
-
+</main>
 
 
     <footer>
     </footer>
-    <script src="dist/aos.js"></script>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+    <script src="dist/owl.carousel.min.js"></script>
+    <script src="dist/aos.js"></script>
+    <script>
+      $('.owl-carousel').owlCarousel({
+        items:1,
+        merge:true,
+        loop:true,
+        margin:10,
+        video:true,
+        lazyLoad:true,
+        center:true,
+        responsive:{
+            480:{
+                items:2
+            },
+            600:{
+                items:4
+            }
+        }
+    })
+    </script>
     <script>
       AOS.init({
         easing: 'ease-out-back',
         duration: 1000
       });
     </script>
-  </body>
+    <script>
+  $(document).ready(function(){
+  $('.owl-carousel').owlCarousel();
+  });
+    </script>
+ </body>
 </html>
