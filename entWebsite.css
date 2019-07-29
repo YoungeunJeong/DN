@@ -44,11 +44,13 @@ header, main, p, h1, h3, h4, h6 {
   text-transform: uppercase;
   letter-spacing: 0.30rem;
   border: 0;
-  text-align:  center;
+  text-align:center;
 
 }
-
-h2{
+.text-merch{
+  color: #456783 !important;
+}
+ h2{
   padding-top:5rem;
   font-family: futura-pt-bold, sans-serif;
   font-weight: 900;
@@ -56,6 +58,8 @@ h2{
   text-transform: uppercase;
   letter-spacing: 0.30rem;
   border: 0;
+  color: #FF8469 !important;
+  text-align: center;
 }
 .primary-section{
   padding-top: 0.5rem;
@@ -79,8 +83,6 @@ h2{
   border: 0;
   background: #456783;
   background-size: cover;
-  text-align:  center;
-
 
 }
 .merch-section{
