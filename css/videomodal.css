@@ -18,11 +18,11 @@ body {
 }
 
 
-main {
+{
   font-size: 0;
 }
-main .column.left,
-main .column.right {
+ .column.left,
+.column.right {
   display: block;
   position: relative;
   font-size: 1rem;
@@ -31,16 +31,16 @@ main .column.right {
   vertical-align: top;
 }
 @media (min-width: 641px) {
-    main .column.left,
-    main .column.right {
+    .column.left,
+    .column.right {
       display: inline-block;
       width: 50%;
       min-height: 100vh;
     }
-    main .column.left {
+   .column.left {
       position: fixed;
     }
-    main .column.right {
+   .column.right {
       margin-left: 50%;
     }
 }
