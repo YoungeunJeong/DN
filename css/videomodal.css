@@ -11,7 +11,7 @@ html {
   }
 }
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'futura-pt', sans-serif;
 }
 .noscroll {
 	overflow: hidden;
@@ -23,7 +23,6 @@ main {
 }
 main .column.left,
 main .column.right {
-  background: #fcfcfc;
   display: block;
   position: relative;
   font-size: 1rem;
@@ -72,7 +71,7 @@ main .column.right {
   left: 1.5rem;
   bottom: 1.5rem;
 
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'futura-pt', sans-serif;
   font-size: 1.25em;
   font-weight: 900;
   line-height: 1.0em;
@@ -141,7 +140,7 @@ main .column.right {
 .content h1,
 .content h2,
 .content p {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'futura-pt', sans-serif;
   font-size: 1em;
   font-weight: 300;
   line-height: 1.5em;
