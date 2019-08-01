@@ -14,13 +14,12 @@ video {
     top: 0;
     left: 0;
     width: 100%;
-    height: relative;
+    /* height: relative; */
     object-fit: cover;
     object-position: center;
 }
 header{
   width:100%;
-  height: relative;
   margin:0;
   padding:0;
   text-align: center;
@@ -87,7 +86,7 @@ header, main, p, h1, h3, h4, h6 {
 
 }
 .merch-section{
-  background-color: #FFF;
+  background-color: #FF8469;
   background-size: cover;
 }
 /* .content{
@@ -123,7 +122,7 @@ header, main, p, h1, h3, h4, h6 {
   font-size: 0.8rem;
   display: inline-block;
   padding: 2px 3px;
-  margin:  none;
+  margin:  0;
   border: 1px solid #ced4da;
   color: #343a40;
   font-size: 80%;
@@ -215,7 +214,7 @@ grayscale.min.css/*!
     border-bottom: none;
     background-color: #456783;
     -webkit-transition: background-color 0.3s ease-in-out;
-    transition: white 0.3s ease-in-out;
+    transition: #fff 0.3s ease-in-out;
   }
 
   #mainNav .nav-link {
@@ -566,35 +565,90 @@ img.slick-slide {
   box-shadow:none;
 }
 
-/* footer {
-  text-align:center;
-  position:fixed;
+.img-container{
+  display: inline-block;
+  vertical-align: top;
+
+}
+.img-container:hover{
+opacity: 0.3;
+
+}
+/* article{
+ padding:0;
+}
+.artist-img{
+  opacity: 1;
+  display: block;
+  width: 35%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+
+}
+.img-container{
+  opacity: 1;
+  display: inline-block;
   width: 100%;
-  bottom: 0;
-  padding: 10px 0;
-  border-top: 1px solid #000;
-  background:#fff;
+  transition: .5s ease;
+  backface-visibility: hidden;
+
+}
+.img-container:hover .artist-img{
+opacity: 0.3;
+
 }
 
-footer .version a {
-  padding: 0 10px;
-  border:1px solid #000;
-  background:#fff;
+span{
+
+font-weight: 300;
+font-size:0.4rem;
 }
 
-footer .version a.active {
-  padding: 0 10px;
-  background:#000;
-  color:#fff;
+
+.bg-margin {
+	margin: 20px auto;
 }
 
-footer a {
-  font-size:15px;
-  color: #707070;
-  text-decoration: none;
-  transition: .5s;
+div.gallery {
+    border: 1px solid #ccc;
 }
 
-footer a:hover {
-  color:#000;
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 } */

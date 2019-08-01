@@ -7,7 +7,7 @@ html {
 }
 @media (min-width: 641px) {
   html {
-    background: #4b4b4b;
+    background: #fff;
   }
 }
 body {
@@ -18,7 +18,7 @@ body {
 }
 
 
-{
+main {
   font-size: 0;
 }
  .column.left,

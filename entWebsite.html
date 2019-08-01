@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="css/site.css">
   <link rel="stylesheet" href="dist/aos.css">
   <link rel="stylesheet" href="entWebsite.css">
-  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
   <link rel="stylesheet" href="css/videomodal.css">
 
@@ -23,10 +23,10 @@
       height: 60%;
     }
     /* Optional: Makes the sample page fill the window. */
-    html, body {
+     html, body{
       height: 100%;
-      margin: 1rem;
-      padding: 3rem;
+      /* margin: 15;
+      padding: 30; */
     }
   </style>
 
@@ -61,6 +61,7 @@
           </div>
         </nav>
         </div>
+        </div>
 
           <video poster="img/location.jpg" playsinline autoplay muted loop data-aos="fade-up">
             <source src="img/location.mp4" type="video/mp4">
@@ -69,119 +70,124 @@
 
         </header>
 
-  <section class="primary-section header-section" id="artist">
-    <div class="col" data-aos="fade-up">
-      <h2 class="text-center mb-4" data-aos="fade-up">artist</h2>
-        <div class="row no-gutters">
-          <div class="col col-1-2-sm col-1-4-md col-1-6-lg item nth-child-20" data-aos="fade-up">
+<!--
+        <div data-aos="fade-up">
+             <h1>Responsive Image Gallery</h1>
+             <p>Without Media Queries</p>
+        </div> -->
+        <!-- <section id="artist"> -->
+        <div class="img-container">
+            <a href="https://www.youtube.com/watch?v=hE2Ira-Cwxo" class="js-trigger-video-modal">
+                <img src="img/artist1.jpeg"><div>alicia keys</div>
+              </div></a>
+
+              <a href="https://www.youtube.com/watch?v=hE2Ira-Cwxo" class="js-trigger-video-modal">
+                <img src="img/artist2.jpeg">
+              </a>
+
+
+              <a href="https://www.youtube.com/watch?v=hE2Ira-Cwxo" class="js-trigger-video-modal">
+                  <img src="img/artist1.jpeg">alicia keys</a>
+              <a href="https://www.youtube.com/watch?v=hE2Ira-Cwxo" class="js-trigger-video-modal">
+                  <img src="img/artist1.jpeg"></a>
+              <a href="https://www.youtube.com/watch?v=hE2Ira-Cwxo" class="js-trigger-video-modal">
+                  <img src="img/artist1.jpeg"></a>
+
+          <!-- </div> -->
+          <!-- <div class="img-container col col-1-2-sm col-1-4-md col-1-6-lg item nth-child-20" data-aos="fade-up">
             <div>
-              <div><img src="img/artist1.jpeg"></div>
-              <div><span>alicia keys</span></div>
-            </div>
-          </div>
-            <div class="col col-1-2-sm col-1-4-md col-1-6-lg item nth-child-20" data-aos="fade-up">
-            <div>
-              <div><img src="img/artist2.jpeg"></div>
-              <div><span>kygo</span></div>
-            </div>
-          </div>
-            <div class="col col-1-2-sm col-1-4-md col-1-6-lg item nth-child-20" data-aos="fade-up">
-            <div>
-              <div><img src="img/artist3.jpeg"></div>
+              <div><a href="https://www.youtube.com/watch?v=hE2Ira-Cwxo" class="js-trigger-video-modal">
+                <img class="artist-img" src="img/artist3.jpeg"></div></a>
               <div><span>miguel</span></div>
             </div>
           </div>
-          <div class="col col-1-2-sm col-1-4-md col-1-6-lg item nth-child-20" data-aos="fade-up">
+          <div class="img-container col col-1-2-sm col-1-4-md col-1-6-lg item nth-child-20" data-aos="fade-up">
             <div>
-              <div><img src="img/artist4.jpeg"></div>
+              <div><img class="artist-img" src="img/artist4.jpeg"></div>
               <div><span>Toni romoti</span></div>
             </div>
           </div>
-          <div class="col col-1-2-sm col-1-4-md col-1-6-lg item nth-child-20" data-aos="fade-up">
+          <div class="img-container col col-1-2-sm col-1-4-md col-1-6-lg item nth-child-20" data-aos="fade-up">
           <div>
-            <div><img src="img/artist5.jpg"></div>
+            <div><img class="artist-img" src="img/artist5.jpg"></div>
             <div><span>ariana grande</span></div>
             </div>
           </div>
-            <div class="col col-1-2-sm col-1-4-md col-1-6-lg item nth-child-20" data-aos="fade-up">
+          <div class="img-container col col-1-2-sm col-1-4-md col-1-6-lg item nth-child-20" data-aos="fade-up">
             <div>
-              <div><img src="img/artist6.jpg"></div>
+              <div><img class="artist-img" src="img/artist6.jpg"></div>
               <div><span>drake</span></div>
             </div>
           </div>
-          <div class="col col-1-2-sm col-1-4-md col-1-6-lg item nth-child-20" data-aos="fade-up">
+          <div class="img-container col col-1-2-sm col-1-4-md col-1-6-lg item nth-child-20" data-aos="fade-up">
             <div>
-              <div><img src="img/artist7.jpg"></div>
+              <div><img class="artist-img" src="img/artist7.jpg"></div>
               <div><span>Ed sheeran</span></div>
             </div>
             </div>
-          <div class="col col-1-2-sm col-1-4-md col-1-6-lg item nth-child-20" data-aos="fade-up">
+            <div class="img-container col col-1-2-sm col-1-4-md col-1-6-lg item nth-child-20" data-aos="fade-up">
             <div>
-              <div><img src="img/artist8.jpeg"></div>
+              <div><img class="artist-img" src="img/artist8.jpeg"></div>
               <div><span>justin timberlake</span></div>
             </div>
           </div>
-        <div class="col col-1-2-sm col-1-4-md col-1-6-lg item nth-child-20" data-aos="fade-up">
-          <div>
-          <div><img src="img/artist9.jpg"></div>
-          <div><span>post malone</span></div>
-        </div>
-      </div>
-      <div class="col col-1-2-sm col-1-4-md col-1-6-lg item nth-child-20" data-aos="fade-up">
-      <div>
-          <div><img src="img/artist10.jpg"></div>
-          <div><span>ty dolla $ign</span></div>
-        </div>
-      </div>
-
-      <div class="col col-1-2-sm col-1-4-md col-1-6-lg item nth-child-20" data-aos="fade-up">
-      <div>
-          <div><img src="img/artist11.jpg"></div>
-          <div><span>sam smith</span></div>
-        </div>
-      </div>
-      <div class="col col-1-2-sm col-1-4-md col-1-6-lg item nth-child-20" data-aos="fade-up">
-      <div>
-          <div><img src="img/artist12.jpg"></div>
-          <div><span>bts</span></div>
-        </div>
-      </div>
-      <div class="col col-1-2-sm col-1-4-md col-1-6-lg item nth-child-20" data-aos="fade-up">
-      <div>
-          <div><img src="img/artist13.jpg"></div>
-          <div><span>a$ap rocky</span></div>
-        </div>
-      </div>
-      <div class="col col-1-2-sm col-1-4-md col-1-6-lg item nth-child-20" data-aos="fade-up">
-      <div>
-          <div><img src="img/artist14.jpg"></div>
-          <div><span>talor swift</span></div>
-        </div>
-      </div>
-        <div class="col col-1-2-sm col-1-4-md col-1-6-lg item nth-child-20" data-aos="fade-up">
-        <div>
-            <div><img src="img/artist15.jpg"></div>
-            <div><span>gallant</span></div>
+          <div class="img-container col col-1-2-sm col-1-4-md col-1-6-lg item nth-child-20" data-aos="fade-up">
+            <div>
+            <div><img class="artist-img" src="img/artist9.jpg"></div>
+            <div><span>post malone</span></div>
+            </div>
           </div>
-        </div>
-        <div class="col col-1-2-sm col-1-4-md col-1-6-lg item nth-child-20" data-aos="fade-up">
-          <div>
-            <div><img src="img/artist16.jpg"></div>
-            <div><span>lizzo</span></div>
-          </div>
-        </div>
-        <div class="col col-1-2-sm col-1-4-md col-1-6-lg item nth-child-20" data-aos="fade-up">
-          <div>
-            <div><img src="img/artist17.jpeg"></div>
-            <div><span>Charlie Puth</span></div>
-          </div>
-        </div>
-
-
-      </div>
-      </div>
+          <div class="img-container col col-1-2-sm col-1-4-md col-1-6-lg item nth-child-20" data-aos="fade-up">
+            <div>
+                <div><img class="artist-img" src="img/artist10.jpg"></div>
+                <div><span>ty dolla $ign</span></div>
+              </div>
+            </div>
+            <div class="img-container col col-1-2-sm col-1-4-md col-1-6-lg item nth-child-20" data-aos="fade-up">
+            <div>
+                <div><img class="artist-img" src="img/artist11.jpg"></div>
+                <div><span>sam smith</span></div>
+              </div>
+            </div>
+            <div class="img-container col col-1-2-sm col-1-4-md col-1-6-lg item nth-child-20" data-aos="fade-up">
+            <div>
+                <div><img class="artist-img" src="img/artist12.jpg"></div>
+                <div><span>bts</span></div>
+              </div>
+            </div>
+            <div class="img-container col col-1-2-sm col-1-4-md col-1-6-lg item nth-child-20" data-aos="fade-up">
+            <div>
+                <div><img class="artist-img" src="img/artist13.jpg"></div>
+                <div><span>a$ap rocky</span></div>
+              </div>
+            </div>
+            <div class="img-container col col-1-2-sm col-1-4-md col-1-6-lg item nth-child-20" data-aos="fade-up">
+            <div>
+                <div><img class="artist-img" src="img/artist14.jpg"></div>
+                <div><span>talor swift</span></div>
+              </div>
+            </div>
+            <div class="img-container col col-1-2-sm col-1-4-md col-1-6-lg item nth-child-20" data-aos="fade-up">
+              <div>
+                  <div><img class="artist-img" src="img/artist15.jpg"></div>
+                  <div><span>gallant</span></div>
+                </div>
+              </div>
+              <div class="img-container col col-1-2-sm col-1-4-md col-1-6-lg item nth-child-20" data-aos="fade-up">
+                <div>
+                  <div><img class="artist-img" src="img/artist16.jpg"></div>
+                  <div><span>lizzo</span></div>
+                </div>
+              </div>
+              <div class="img-container col col-1-2-sm col-1-4-md col-1-6-lg item nth-child-20" data-aos="fade-up">
+                <div>
+                  <div><img class="artist-img" src="img/artist17.jpeg"></div>
+                  <div><span>Charlie Puth</span></div>
+                </div>
+              </div> -->
 
     </section>
+
 
     <section id="videos" style="margin-bottom:10rem">
       <div class="col-lg-8 mx-auto" data-aos="fade-up">
@@ -253,7 +259,8 @@
                frameborder="0"
                allow="autoplay"
                allowfullscreen
-               src=""></iframe>
+               src=
+             ></iframe>
 
              <a
                  href="#"
@@ -339,7 +346,7 @@
 
   <div>
   <h2 class="text-center text-merch" data-aos="fade-up">location</h2></div>
-  <div class="container" width="relative" id="map" data-aos="fade-up">
+  <div class="container bg-white merch-section" width="relative" id="map" data-aos="fade-up">
   </div>
     <script>
       var map;
