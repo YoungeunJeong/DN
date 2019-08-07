@@ -1,6 +1,6 @@
 
 @font-face {
-    font-family: futura-pt, sans-serif;
+    font-family: futura-pt-bold, sans-serif;
     src: url("https://use.typekit.net/dvl4agg.css");
 }
 .header-section {
@@ -154,9 +154,9 @@ button:focus {
    transform: scale(1.5);
 }
 #artist{
-  padding: 5rem;
+  padding: 1rem;
   align-items: center;
-  
+  align-content: center;
 }
 #videos{
   padding: 5rem;
@@ -308,8 +308,8 @@ grayscale.min.css/*!
 
 .signup-section {
 
-  color:#FF8469;
-  padding: 10rem 0;
+  color:#131313;
+  padding: 4rem 0;
   background: #eeee;
   background: #eeee;
   background-position: center;
@@ -400,7 +400,7 @@ grayscale.min.css/*!
 
 .footer-section {
   padding: 1rem 0;
-  color: #808080;
+  color: #FF8469;
   background-color: #eeee;
 }
 .footer-border{
@@ -410,7 +410,7 @@ grayscale.min.css/*!
 
 }
 footer a{
-  color: #808080;
+  color: #E8D1D5;
 }
 footer a:hover{
   color: #FF8469;
@@ -504,14 +504,21 @@ img.slick-slide {
   box-shadow:none;
 }
 
-
+.wrap{
+  width:90%;
+  text-align:center;
+  margin:0px auto;
+}
+.wrap img{
+  width:100%;
+  height:auto
+}
 /* image hover */
 
 .photobox{
   display: inline-block;
   margin:   0.5rem;
   overflow: hidden;
-  width: auto;
 }
 
 .photobox__previewbox{
@@ -542,7 +549,7 @@ img.slick-slide {
 
   transition: transform calc(var(--photoboxAnimationDuration, .4s) / 2) ease-out,   opacity calc(var(--photoboxAnimationDuration, .4s) / 2) ease-out;
   will-change: transform;
-  transform: translate(-50%, -50%) scale(0);
+  transform: translate(-50%, -50%) scale(1);
 }
 
 .photobox_type21:hover .photobox__previewbox:before{
@@ -645,31 +652,3 @@ img.slick-slide {
   font-size: 80%;
   font-weight: 300;
 }
-/* .item {
-    border: 0;
-    margin: 2%;
-    overflow: hidden;
-    width: auto;
-    display: inline-block;
-}
-.item img {
-    max-width: 100%;
-    -webkit-transition: .5s ease;
-    -moz-transition: .5s ease;
-    transition: .5s ease;
-}
-.item:hover img {
-    -webkit-transform: scale(1.05,1.05);
-    -moz-transform: scale(1.05,1.05);
-    transform: scale(1.05,1.05);
-}
-
-
-.artist-name{
-
-  font-family: 'futura-pt';
-  font-size: 80%;
-  text-transform: uppercase;
-  letter-spacing: 0.15rem;
-  border: 0;
-} */
