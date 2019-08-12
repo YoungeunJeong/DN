@@ -94,24 +94,28 @@ button:focus {
   outline: none !important;
   outline: none !important;
 }
-.ghost-btn {
+.sub-btn {
   align-items: center;
   /* display: inline-block; */
   padding: 1.25rem 2rem;
   margin: 0;
-  border: 1.5px #FF8469;
+  border: 1rem #FF8469;
   color: #FF8469;
   text-align: center;
   font-family:'futura-pt-bold' !important;
-  /* border-style: : none; */
   outline; none;
-  border-radius: 6px;
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: 0.30rem;
   border: 0;
   -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+}
+.sub-btn:hover{
+  background-color:#FF8469;
+  color:white;
+  text-decoration: none;
+  transition: 0.3s;
 }
 .ghost-btn:hover {
   background-color:#FF8469;
@@ -123,23 +127,28 @@ button:focus {
   align-items: right;
   display: inline-block;
   width: 100%;
-  border: 1px solid #FF8469;
-  padding: 1.25rem 2rem;
+
+  border-style: solid;
+  border-width: 0.5rem;
+  border-color: #FF8469;
+  padding: 1.25rem 0.5rem;
+  border-top: 0;
 
 
   text-align: center;
   border-style: : none;
 
   font-family:'futura-pt-bold' !important;
-  color: #FF8469;
+  color: #fff;
+  background-color: #FF8469;
   text-transform: uppercase;
   letter-spacing: 0.30rem;
 
 
 }
 .ghost-button:hover {
-  background-color:#FF8469;
-  color:white;
+  background-color:#fff;
+  color:#FF8469;
   text-decoration: none;
   transition: 0.3s;
 }
@@ -161,6 +170,81 @@ button:focus {
 #videos{
   padding: 5rem;
 }
+.carousel-border{
+  border-style: solid;
+  border-width: 0.5rem;
+  border-color: #FF8469;
+}
+.modal-window {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.25);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s;
+  &:target {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+  }
+  &>div {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2em;
+    background: #ffffff;
+  }
+  header {
+    font-weight: bold;
+  }
+  h1 {
+    font-size: 150%;
+    margin: 0 0 15px;
+  }
+}
+
+.modal-close {
+  color: #aaa;
+  line-height: 50px;
+  font-size: 80%;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 70px;
+  text-decoration: none;
+  &:hover {
+    color: black;
+  }
+}
+
+
+.modal-window div:not(:last-of-type) {
+  margin-bottom: 15px;
+}
+
+small {
+  color: #aaa;
+}
+
+.btn {
+  background-color: #fff;
+  padding: 1em 1.5em;
+  border-radius: 3px;
+  text-decoration: none;
+  i {
+    padding-right: 0.3em;
+  }
+}
+
+
 grayscale.min.css/*!
  * Start Bootstrap - Grayscale v5.0.8 (https://startbootstrap.com/template-overviews/grayscale)
  * Copyright 2013-2019 Start Bootstrap
@@ -305,13 +389,24 @@ grayscale.min.css/*!
     width: 30%;
   }
 }
-
+#signup ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+}
+#signup li {
+  display: inline-block;
+  padding:0.5rem;
+}
+#signup ul a{
+  color:#fff;
+}
 .signup-section {
 
   color:#131313;
-  padding: 4rem 0;
-  background: #eeee;
-  background: #eeee;
+  padding: 2rem 0;
+  background: #808080;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -331,7 +426,7 @@ grayscale.min.css/*!
 }
 
 .contact-section {
-  padding: 5rem 0 0;
+  padding: 1rem 0 0;
 }
 
 .contact-section .card {
@@ -399,13 +494,14 @@ grayscale.min.css/*!
 } */
 
 .footer-section {
-  padding: 1rem 0;
-  color: #FF8469;
-  background-color: #eeee;
+  padding-top: 1rem;
+  color: #808080;
+  background-color: #808080;
+  color: #403E40;
 }
 .footer-border{
-  border-top: 1px solid #E8D1D5;
-  padding: 34px 0 0;
+  border-top: 1px solid #403E40;
+  padding: 0.5rem;
 
 
 }
