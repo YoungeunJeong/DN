@@ -36,6 +36,12 @@ header, main, p, h1, h3, h4, h6 {
   text-align:center;
 
 }
+button, input{
+  font-family: "futura-pt-bold", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.30rem;
+
+}
 .text-merch{
   color: #456783 !important;
   margin: 0;
@@ -102,7 +108,7 @@ button:focus {
   border: 1rem #FF8469;
   color: #FF8469;
   text-align: center;
-  font-family:'futura-pt-bold' !important;
+  font-family:'futura-pt-bold', sans-serif;
   outline; none;
   font-size: 80%;
   text-transform: uppercase;
@@ -138,7 +144,7 @@ button:focus {
   text-align: center;
   border-style: : none;
 
-  font-family:'futura-pt-bold' !important;
+  font-family:'futura-pt-bold', sans-serif;
   color: #fff;
   background-color: #FF8469;
   text-transform: uppercase;
@@ -422,7 +428,7 @@ grayscale.min.css/*!
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
   height: auto;
-  font-family: 'futura-pt';
+  font-family: 'futura-pt-bold', sans-serif;
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: 0.30rem;
