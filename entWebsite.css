@@ -156,13 +156,13 @@ button:focus {
   box-shadow: none;
 }
 
-.merch-contaner{
-  transition: 0.5s;
+.owl-carousel a img{
+  transition: all 0.3s;
 
 }
-.merch-container:hover {
+.owl-carousel a img:hover {
   opacity: 0.6;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 

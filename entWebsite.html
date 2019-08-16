@@ -328,11 +328,11 @@ function btn(){ alert('Thanks for subscribe!'); }
             <h1 class="text-merch text-center mb-4" data-aos="fade-up">merch</h1>
               <p class="text-center" data-aos="fade-up">get your favorite MUSICIAN'S official merchandise!</p></div>
                 <div class="owl-carousel" data-aos="fade-up">
-                  <div><img class="merch-contaner" src="img/merch4.png"></div>
-                  <div class="merch-contaner"><img src="img/merch5.png"></div>
-                  <div class="merch-contaner"><img src="img/merch1.png"></div>
-                  <div class="merch-contaner"><img src="img/merch2.png"></div>
-                  <div class="merch-contaner"><img src="img/merch3.png"></div>
+                  <div class="item merch-contaner"><a href="" target="_blank"><img src="img/merch4.png"></a></div>
+                  <div class="item merch-contaner"><a href="" target="_blank"><img src="img/merch5.png"></a></div>
+                  <div class="item merch-contaner"><a href="" target="_blank"><img src="img/merch1.png"></a></div>
+                  <div class="item merch-contaner"><a href="" target="_blank"><img src="img/merch2.png"></a></div>
+                  <div class="item merch-contaner"><a href="" target="_blank"><img src="img/merch3.png"></a></div>
                 </div>
             </div>
           </div>
@@ -460,7 +460,7 @@ function btn(){ alert('Thanks for subscribe!'); }
             <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address...">
             <button type="submit" class="sub-btn mx-auto" data-aos="fade-up" onclick="javascript:btn()">Subscribe</button>
           </form>
-        <div class="container contact-section">
+        <div class="container contact-section" data-aos="fade-up">
               <ul>
                     <li>
                         <a href="https://twitter.com/thegreatkhalid" target="_blank">
@@ -511,6 +511,7 @@ function btn(){ alert('Thanks for subscribe!'); }
     </script>
     <script>
     $('.owl-carousel').owlCarousel({
+        stagePadding: 50,
         items:1,
         merge:true,
         loop:true,
