@@ -155,15 +155,19 @@ button:focus {
 .ghost-button:focus, .ghost-button.focus {
   box-shadow: none;
 }
-.merch-img{
-  width:100%;
-}
-.merch-img:hover{
 
-   transform: scale(1.5);
+.merch-contaner{
+  transition: 0.5s;
+
 }
+.merch-container:hover {
+  opacity: 0.6;
+  transition: 0.5s;
+}
+
+
 #artist{
-  padding: 1rem;
+  padding: 5rem;
   align-items: center;
   align-content: center;
 }
@@ -405,7 +409,7 @@ grayscale.min.css/*!
 .signup-section {
 
   color:#131313;
-  padding: 2rem 0;
+  padding: 5rem 0;
   background: #808080;
   background-position: center;
   background-repeat: no-repeat;
@@ -445,28 +449,6 @@ grayscale.min.css/*!
   border-color: #C7C6A7;
   border-width: 0.25rem;
   width: 3rem;
-}
-
-.contact-section .social {
-  margin-top: 5rem;
-}
-
-.contact-section .social a {
-  text-align: center;
-  height: 3rem;
-  width: 3rem;
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 100%;
-  line-height: 3rem;
-  color: rgba(255, 255, 255, 0.3);
-}
-
-.contact-section .social a:hover {
-  color: rgba(255, 255, 255, 0.5);
-}
-
-.contact-section .social a:active {
-  color: #fff;
 }
 
 .bg-black {
