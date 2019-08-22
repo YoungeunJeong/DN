@@ -5,7 +5,7 @@
 }
 .header-section {
   margin: 0;
-  background: #456783;
+  background: #eee;
   background-size: cover;
   color: white;
 }
@@ -123,6 +123,7 @@ button:focus {
   text-decoration: none;
   transition: 0.3s;
 }
+
 .ghost-btn:hover {
   background-color:#FF8469;
   color:white;
