@@ -645,6 +645,11 @@ img.slick-slide {
 }
 
 .photobox_type21 .photobox__label{
+
+  font-family: "futura-pt-bold", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.30rem;
+  
   width: 95%;
   text-align: center;
 
